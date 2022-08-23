@@ -1,0 +1,398 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+/* header starts from here  */
+
+.up-btn{
+    background-color: #FFB606 !important;
+    padding:3px 2px !important;
+    border: none;
+    margin: 5px;
+    border-radius:5px ;
+    font-weight: bolder !important;
+    font-size: .6rem !important;
+}
+.hover-btn{
+    transition: .3s !important;
+}
+.hover-btn:hover{
+    transform: scale(1.1);
+}
+.up-div{
+    background-color: #002147;
+    padding: 10px 10px;
+}
+.logo-img{
+    width: 200px;
+}
+.nav-link{
+    color: white !important;
+    padding: 10px;
+    font-size: .8rem;
+    transition: .3s !important;
+    margin-left: 20px;
+}
+.nav-link:hover{
+    transform: scale(1.1);
+}
+.nav-item{
+    margin: 6px 17px;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 10px;
+    border-radius: 10px;
+}
+#header-section{
+    background-image: url(images/th.jpg);
+    height: 900px;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+.for-bg{
+    background-color: rgba(0, 0, 0, .6);
+    height: 900px;
+}
+.the-q{
+    margin-top: 100px;
+    padding: 15px;
+}
+.cap-btn{
+    transition: .3s !important;
+    margin: 0 !important;
+    font-size: .8rem !important;
+    margin: 0;
+    padding: 7px !important;
+}
+.cap-btn:hover{
+    transform: scale(1.1);
+}
+.the-q h4{
+    font-size: 1.6rem;
+}
+.the-q p{
+    font-size: 1rem;
+}
+.banner-icon{
+    color: #FFB606;
+    margin-right: 10px;    
+}
+.the-q-p .sm-h4{
+    font-size: 1.3rem !important;
+}
+
+/* header ends here  */
+
+/* intro section starts from here  */
+#intro-section{
+    padding: 30px 5px;
+}
+
+.vice{
+    padding:10px;
+    width: 100%;
+}
+.card-div{
+    width: 100%;    
+    padding: 10px 16px;
+    box-shadow: 2px 4px 15px -1px #000000;
+    margin-top: 50px;
+}
+.card-div img{
+    width: 100%;
+}
+.card-div h5{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 3px;
+}
+.card-div p{
+    font-size:12px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 9px !important;
+}
+.word-of-vice{
+    padding: 40px;
+    box-shadow: 2px 4px 15px -1px #000000;
+}
+.word-of-vice h3{
+    font-weight: bold;
+}
+.word-of-vice p{
+    line-height: 26px;
+}
+
+/* intro section ends here  */
+
+/* about section starts here  */
+#about-section{
+    padding: 30px;
+}
+.card-div-a img{
+    width: 100%;
+}
+.about-card-div{
+    padding: 50px;
+    box-shadow: 2px 4px 15px -1px #000000;
+    transition: .3s;
+    margin: 10px;
+}
+.about-card-div:hover{
+    box-shadow: 1px 2px 6px -1px #000000;
+}
+.card-div-a h5{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+.card-div-a h4{
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+/* about section ends here  */
+
+.head h5{
+    font-size: 1.7rem;
+    color: #002147;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+    position: relative;
+}
+.head h5::after{
+    content: '';
+    width: 0100px;
+    height: 5px;
+    background-color: #FFB606;
+    position: absolute;
+    bottom: -10px;
+    left: 40%;
+}
+
+/* .common-hr{
+    margin: 0 !important;
+    margin-bottom: 90px !important;
+    border: 6px solid #FFB606 !important;
+    border-bottom: none !important;
+    width: 150px !important;
+    margin: 0 auto 10px auto !important;
+} */
+
+/* number starts here  */
+#number{
+    padding: 8% 3%;
+}
+.number-icon{
+    color: #FFB606;
+    padding: 25px; 
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.main h2,h5{
+    font-weight: bold;
+    color: white;
+}
+.forthe-bg{
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.rbjqtXVCD6Sl1MOdf0geSwHaE8&pid=Api&P=0);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* number ends here  */
+
+/* welcome section starts here  */
+#welcome{
+    padding: 8% 2%;
+}
+.img-here img{
+    width: 100%;    
+}
+#welcome h4{
+    font-weight: bold;
+}
+.for-width{
+    width: 100% !important;    
+}
+.for-width:hover{
+    transform: scale(1.0);
+}
+.padding{
+    padding: 20px;
+}
+.img-here{
+    padding: 20px;
+    margin-top: 100px;
+}
+/* welcome section ends here  */
+
+/* latest section starts here  */
+#latest{
+    padding: 3% 2%;
+}
+
+.l-h{
+    font-size: 1.3rem;
+    margin: 25px 0px 50px 0px;
+}
+.latest-btn{
+    border: 1px solid #FFB606 !important;
+    border-radius: 50px !important;
+    padding: 10px 19px !important;
+    transition: .4s !important;
+    margin: 10px 0px;
+    
+}
+.latest-btn:hover{
+    background-color: #FFB606;
+    color: white !important;
+}
+.title-card{
+    padding: 10px;
+    margin: 30px 0px;
+    
+}
+.shadow{
+    box-shadow: 2px 4px 15px -1px #000000 !important;
+}
+.latest-icon{
+    margin: 0;
+}
+
+
+/* latest section ends here  */
+
+.view-btn{
+    background-color: #FFB606 !important;
+    border-radius: 10px;
+    font-size: 1.3rem  !important;
+    font-weight: bold !important;
+    padding: 10px 20px !important;    
+}
+.view-center{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+/* research starts here  */
+#research{
+    padding: 4% 2%;
+}
+.shadow p{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: justify;
+}
+.shadow h5{
+    font-size: .9rem;
+    text-align: right;
+}
+.card-hr{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+/* research ends here  */
+
+/* campus starts here  */
+#campus{
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.KlviSJsIGIU87G0LjkeJ0AHaEJ&pid=Api&P=0);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5% 4%;
+}
+.du h5{
+    color: #FFB606 !important;
+    margin: 15px 0px;
+}
+.du h2{
+    color: white;
+    margin: 15px 0px;
+}
+.cam-icon{
+    margin: 0 !important;
+    background-color: white;
+    border-radius: 50%;
+}
+/* campus ends here  */
+
+/* iframe starts here  */
+#iframe{
+    padding: 7% 2%;
+}
+
+/* iframe ends here  */
+/* footer starts here  */
+#usefull{
+    background-color: rgba(0,33,71,.9);
+    padding: 5% 3%;  
+    position: relative;  
+        
+}
+.for-bg-last{
+    width: 140px;
+    height: 200px;
+    opacity: .3;
+    position: absolute;
+    left: 60%;
+    top: 15%;
+    background-image: url(images/du.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 130px; 
+    /* border: 2px solid black; */
+}
+.index{
+    
+}
+.usefull-links{
+    color: white;
+    font-size: 1.1rem;
+    margin-left: 16px;
+}
+.last-logo{
+    width: 70px;
+}
+.last-logo-desk h6{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.listt{
+    margin: 6px 0px;
+}
+
+.linkk{
+    color: white;
+    text-decoration: none;
+    transition: .2s;
+    font-size: .9rem;
+}
+.linkk:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+#copyright{
+    background-color: rgba(0,33,71,1);
+    text-align: center;
+}
+.soyeb{
+    color: red;
+    font-weight: bold;
+    
+}
+#copyright p{
+    font-size: .9rem;
+}
+/* footer ends here  */
+

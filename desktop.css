@@ -1,0 +1,44 @@
+/* header starts from here  */
+
+.banner-icon{
+    margin-left: 90px;
+}
+.up-div{
+    background-color: #002147;
+    padding: 10px 100px;
+}
+.logo-img{
+    width: 200px;
+}
+.nav-item{
+    margin: 6px 17px;
+    background: none;
+    padding: 0px;
+    border-radius: 10px;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+    
+}
+.nav-link{
+    font-size: .8rem;
+}
+
+/* header ends here  */
+
+
+/* intro section starts from here  */
+.card-div{
+    margin-top: 15px;
+}
+.word-of-vice p{
+    line-height: 26px;
+}
+/* intro section ends here  */
+
+/* about section starts here  */
+/* about section ends here  */
+
+/* number starts here  */
+/* number ends here  */

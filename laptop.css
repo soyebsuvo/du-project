@@ -1,0 +1,101 @@
+/* header starts from here  */
+
+
+.up-div{
+    background-color: #002147;
+    padding: 10px 50px;
+}
+.up-btn{
+    background-color: #FFB606 !important;
+    padding: 7px!important;
+    border: none;
+    margin: 7px;
+    border-radius:5px ;
+    font-weight: bolder !important;
+    font-size: .8rem !important;
+}
+#header-section{   
+    height: 100vh;
+    background-repeat:no-repeat ;    
+}
+.logo-img{
+    width: 160px;
+}
+.for-bg{
+    height: 100vh;
+}
+.nav-item{
+    background:none;
+    margin: 6px 0px;    
+    padding: 0px;
+    border-radius: 0px;
+}
+.nav-link{
+    color: white !important;
+    padding: 10px 0px;
+    font-size: .7rem;  
+    margin-left: 30px;
+}
+#header-section{
+    background-image: url(images/th.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.the-q{
+    margin-top: 170px;
+    padding: 15px;
+}
+.banner-icon{    
+    /* margin-left: 70px; */
+}
+.the-q-p .sm-h4{
+    font-size: 1.4rem !important;
+    padding: 0 !important;
+}
+
+/* header ends here  */
+
+
+/* intro section starts from here  */
+.vice{
+    padding: 10px;
+    width: 100%;
+}
+.word-of-vice p{
+    line-height: 24px;
+}
+/* intro section ends here  */
+
+/* about section starts here  */
+/* about section ends here  */
+
+.head h5::after{    
+    left: 45%;
+}
+
+/* number starts here  */
+.head h5{
+    font-size: 2.4rem;
+}
+/* number ends here  */
+
+/* latest starts here  */
+.title-card{
+    padding: 10px;
+    margin: 0px;    
+}
+/* latest ends here  */
+.for-bg-last{
+    
+    left: 43%;
+    top: 40%;
+}
+.nav-link:hover{
+    transform: scale(1.1);
+    
+}
+.nav-link:focus{
+    transform: scale(1.1);
+    font-weight: bolder;
+}
